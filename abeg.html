@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/header-and-footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo2.png" alt="Zima logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
+                <div class="abt">
+                    <li class="nav-item">
+                        <a class="nav-link me-2 fw-bold" href="about.html" style=" font-size: 16px; color: #361D1B; font-weight: 800;">About</a>
+                      </li>
+                </div>
+             
+              <li class="nav-item">
+                <a class="nav-link me-2 fw-bold" href="contact.html" style="font-size: 16px; color: #361D1B;font-weight: 800;">Contact</a>
+              </li>
+              
+            </ul>
+            <a class="navbar-brand" href="#"><img src="./img/insta.png" alt="Instagram"></a>
+            <a class="navbar-brand" href="#"><img src="./img/facebook.png" alt="Facebook"></a>
+          </div>
+        </div>
+      </nav>
+</header>
+
+    <section class="container">
+        <div class="d-flex justify-content-center align-items-center flex-column mt-4">
+          <div class="1">
+            <img src="./img/1.png" alt="1ok">
+          </div>
+        </div>
+        <div class="row px-3 py-1">
+            <div class="mb-md-0 mb-3 container" style="margin-left: 25%;">
+                <form id="contact-form" name="contact-form" onsubmit="sendEmail(); reset(); return false;">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="fname" class=""> </label>
+                                <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name" required>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="lname" class=""> </label>
+                                <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class=""> </label>
+                                <input type="text" id="email" name="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="md-form mb-0">
+                                <label for="subject" class=""> </label>
+                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="md-form mb-0">
+                                <label for="subject" class=""> </label>
+                                <input type="number" id="phone" name="phone" class="form-control" placeholder="Age" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="col-md-3">
+                            <div class="md-form mb-0">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Gender</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                  </select>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="my-3" style="margin-left: 19%;">
+                      <a href="./abeg2.html"><button type="button" style="background-color: #361D1B; border: none; color: white; border-radius: 8px; padding: 8px 45px; font-size: 16px ;">Next</button></a>
+                    </div>
+                </form>    
+        </div>
+          
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <!-- <footer style="background-color: #2750A8;"> -->
+    <footer class="foot">
+      <div class="py-3 py-lg-5 py-md-5">
+        <div class="text-light rec">
+            <img src="./img/Rectangle 19.png" alt="">
+            <div class="mx-3  d-flex justify-content-center align-items-center">
+              <div class="d-flex svg">
+                  <div class="mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0 0 50 50" style="fill:#361d1b;">
+                    <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                    </svg></div>
+                  <div class="mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0,0,256,256" style="fill:#000000;">
+                    <g fill="#361d1b" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M32,11h5c0.552,0 1,-0.448 1,-1v-6.737c0,-0.524 -0.403,-0.96 -0.925,-0.997c-1.591,-0.113 -4.699,-0.266 -6.934,-0.266c-6.141,0 -10.141,3.68 -10.141,10.368v6.632h-7c-0.552,0 -1,0.448 -1,1v7c0,0.552 0.448,1 1,1h7v19c0,0.552 0.448,1 1,1h7c0.552,0 1,-0.448 1,-1v-19h7.222c0.51,0 0.938,-0.383 0.994,-0.89l0.778,-7c0.066,-0.592 -0.398,-1.11 -0.994,-1.11h-8v-5c0,-1.657 1.343,-3 3,-3z"></path></g></g>
+                    </svg></div>
+                  <div class="mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0 0 30 30" style="fill:#361d1b;">
+                        <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"></path>
+                    </svg></div>
+                  <div class="mx-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0 0 24 24" style="fill:#361d1b;">
+                        <path d="M21.634,4.031c-0.815,0.385-2.202,1.107-2.899,1.245c-0.027,0.007-0.049,0.016-0.075,0.023 c-0.813-0.802-1.927-1.299-3.16-1.299c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.218,0-5.568-1.679-7.327-3.837 C3.438,4.873,3.188,5.024,3.136,5.23C3.019,5.696,2.979,6.475,2.979,7.031c0,1.401,1.095,2.777,2.8,3.63 c-0.314,0.081-0.66,0.139-1.02,0.139c-0.424,0-0.912-0.111-1.339-0.335c-0.158-0.083-0.499-0.06-0.398,0.344 c0.405,1.619,2.253,2.756,3.904,3.087c-0.375,0.221-1.175,0.176-1.543,0.176c-0.136,0-0.609-0.032-0.915-0.07 c-0.279-0.034-0.708,0.038-0.349,0.582c0.771,1.167,2.515,1.9,4.016,1.928c-1.382,1.084-3.642,1.48-5.807,1.48 c-0.438-0.01-0.416,0.489-0.063,0.674C3.862,19.504,6.478,20,8.347,20C15.777,20,20,14.337,20,8.999 c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.589-0.425,1.491-1.163,1.947-1.728c0.155-0.192,0.03-0.425-0.181-0.352 c-0.543,0.189-1.482,0.555-2.07,0.625c1.177-0.779,1.759-1.457,2.259-2.21C22.109,4.168,21.895,3.907,21.634,4.031z"></path>
+                    </svg></div>
+              </div>
+          </div>
+            <img src="./img/Rectangle 20.png" class='img-right' alt="">
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/header-and-footer.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>

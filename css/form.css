@@ -1,0 +1,169 @@
+.step {
+    display: none;
+  }
+.step.active {
+    display: block;
+  }
+
+.container{
+    max-height: 100vh;
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FDF0CD;
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+.people img{
+    width: 42%;
+}
+
+.people{
+    justify-content: space-between;
+}
+.main-txt{
+    text-align: right;
+}
+
+.svg{
+    margin-top: -20px;
+}
+.rec img{
+    width: 40%;
+}
+
+.rec{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social img{
+    width: 100%;
+}
+.contact{
+    margin-top: -15px;
+}
+.zemoo{
+    color: #361d1b;
+    font-weight: 400;
+}
+.single img{
+    width: 40%;
+}
+.single{
+    width: 50%;
+    margin-left: 55px;
+}
+.txt-area{
+    width: 45%;
+}
+.move{
+    margin-left: 31px;
+}
+.fifl img{
+    width: 30%;
+}
+
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #361d1b;
+    outline: none;
+    background: transparent;
+}
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+  }
+.login-box .user-box {
+  position: relative;
+}  
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #361d1b;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #361d1b;
+    pointer-events: none;
+    transition: .5s;
+  }
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #361d1b;
+    font-size: 12px;
+  }
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #361d1b;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+.reduce{
+    margin-top: -30px;
+}
+.reduce2{
+    margin-top: -5px;
+}
+.upload h5{
+    color: #361d1b;
+    font-weight: 800;
+    font-size: 32px;
+    margin-left: 140px;
+}
+
+.upload p{
+    color:#361d1b;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 70px;
+    
+}
+.upload{
+    align-items: center;
+    justify-content: center;
+}
+.export{
+    margin-left: 80px;
+}
+.export img{
+    width: 120%;
+}
+  

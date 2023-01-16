@@ -56,41 +56,26 @@
             <div class="col-md-9 mb-md-0 mb-3 container">
                 <form id="contact-form" name="contact-form" onsubmit="sendEmail(); reset(); return false;">
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <label for="name" class=""> </label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Name *" required>
-                            </div>
+                    <div class="login-box">
+                        <form>
+                        <div class="user-box">
+                            <label for="name" class=""></label>
+                            <input type="text" id="name" name="name" placeholder="Name *" required>
                         </div>
-                    
-                       
-
-                    </div>
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
+                        <div class="user-box contact">
                             <label for="email" class=""> </label>
-                            <input type="text" id="email" name="email" class="form-control" placeholder="Email *" required>
+                            <input type="text" id="email" name="email" placeholder="Email *" required>
+                        </div>
+                        <div class="user-box contact">
+                            <label for="phone" class=""> </label>
+                            <input type="text" id="phone" name="phone" placeholder="Phone *" required>
+                        </div>
+                        <div class="user-box contact">
+                            <label for="message" class=""> </label>
+                            <input type="text" id="message" name="message" placeholder="Message *" required>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <label for="subject" class=""> </label>
-                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone *" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <label for="message"></label>
-                                <textarea type="text" id="message" name="message" rows="1" class="form-control md-textarea" placeholder="Message *" required ></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="my-3 justify-content-center align-items-center d-flex flex-column">
+                    <div class="my-1 justify-content-center align-items-center d-flex flex-column">
                       <button type="submit" style="background-color: #361D1B; border: none; color: white; border-radius: 8px; padding: 5px 35px; font-size: 16px ;">Submit</button>
                     </div>
                 </form>    

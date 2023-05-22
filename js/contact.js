@@ -3,7 +3,7 @@ function sendEmail(){
         Host : "smtp.elasticemail.com",
         Username : "gekpo5@gmail.com",
         Password : "5C4148F5C9F5CC318DB2F051DC70C522C264",
-        To : 'zemogroup3@gmail.com',
+        To : 'gekpo5@gmail.com',
         From : document.getElementById('email').value,
         Subject : "New Contact Form",
         Body : "Name: " + document.getElementById('name').value
